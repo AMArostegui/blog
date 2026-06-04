@@ -1,3 +1,27 @@
 baseURL = 'https://amiras.net/'
 locale = 'en-us'
-title = "Amira's Blog"
+title = "Antonio Miras Personal Blog"
+theme = "PaperMod"
+paginate = 10
+enableRobotsTXT = true
+
+[params]
+  env = "production"
+  title = "Antonio Miras' Personal Blog"
+  description = "Personal blog by Antonio Miras"
+  author = "Antonio Miras"
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = true
+  ShowRssButtonInSectionTermList = true
+
+  [params.homeInfoParams]
+    Title = "Hi, I'm Antonio Miras 👋"
+    Content = "Welcome to my personal blog"
+
+[minify]
+  disableXML = true
+  minifyOutput = true

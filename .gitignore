@@ -2,9 +2,6 @@
 public/
 resources/_gen/
 
-# Theme folder (will be added later)
-themes/
-
 # Hugo cache
 .hugo_build.lock
 
