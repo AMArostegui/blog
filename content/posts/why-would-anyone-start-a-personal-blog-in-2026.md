@@ -8,7 +8,7 @@ description: ""
 showToc: false
 ---
 
-Last week while scrolling on Twitter I came to notice a post when its author asked ChatGPT what to do that put him above 95% of his professional peers and one of the chatbot answers were to "start a personal blog". At first I was like "yeah, that moronic chatbot thinks by writing essays for myself (who reads blogs nowadays?) I'm going to make a positive impact on my life. The thing is the idea lingered on my head and, the more the days passed, the more sense it made. In the end I made the decision and following the advice of my robotic overlord, decide to start my own personal blog. This first post is a collection of the reasons that have pushed me to start writing in 2026, the age of LLMs, social media and short video consumption.
+Last week while scrolling on Twitter I came to notice a post when its author asked ChatGPT what could he do that place him above 95% of his professional peers. Surprisingly, one of the chatbot answers was to "start a personal blog". My first reaction was something in the line of "yeah, that moronic chatbot thinks that by writing essays for myself (who reads blogs nowadays?) I'm going to make a positive impact on my life". The thing is that the idea lingered on my head and, the more days passed, the more sense it made. I ended up making the decision and following the advice of the robotic overlord, decided to start my own personal blog. This first post is a collection of the reasons that pushed me to start writing in 2026, the age of LLMs, social media and short-form video consumption.
 
 I'm going to group those reasons in personal and professional:
 
@@ -38,12 +38,17 @@ I plan to write one post every week and I fully anticipate this to be hard. Find
 
 ## Professional reasons
 
-First, sure not all personal projects are meant to be finished or even published. The majority are to be proof of concepts or just for fun. But, what if I decide one is worth finishing? Would I be able to do it? Of course if its making money that would help, but what if it's not? I've found that I'm bad at **being productive on personal projects**. Setting and hitting deadlines. That's never been an issue at my day job as the pressure is applied by my manager and I think I'm good at adapting the effort to the assigned timeframe. But anyway I'm hoping to improve on this and my weekly publishing goal might help managing this.
+1. Being more productive on personal projects
+2. Learning new technologies; keep up to date with the field
+3. Add an on-demand technology to my CV
+4. Speak in a conference
 
-**Learning new technologies** apart from my regular job has also proved challenging. Passive learning has uses, but knowledge only sticks when applied actively. As a pretext of writing a blog entry I can build a small sample using a given framework, or compare new tools with those used daily, learning much more proactively. Perhaps, if to **add to my portfolio a particular technology** I can write a set of blog post and create a repository beyond a 'hello world' that could be more attractive from an employer point of view.
+First, sure not all personal projects are meant to be finished or even published, most are proof of concepts or do it just for fun, a that's fine. But, what if I decide a particular one is worth finishing? Would I be able to? Of course if its making money that would help, but what if it's not? I've found that I'm bad at **being productive on personal projects**; setting and hitting deadlines. That's never been an issue at my day job as the pressure is applied by my manager and I think I'm good at adapting the effort to the assigned timeframe, but not so on side projects. My weekly publishing goal might help me improve on this.
 
-In the past, I've applied as a speaker in technology conferences. Sometimes I'be been asked to create a stub and keep adding contents before my application gets chosen. Found this frustrating since all the work would go to waste in case I was not chosen, so I got discouraged and give up. I think that writing the contents of my application on my personal blog would help me finding this process more deserving and, thus, persist.
+**Learning new technologies** apart from my regular job has also proved challenging. Passive learning is easy, sit while watching a Youtube clip or browse Hacker News, and has uses, but knowledge only sticks when applied actively. As a pretext of writing a blog entry I can build a small sample using a given framework, or compare new tools with those I use daily, learning much more proactively. Perhaps, to **add to my portfolio a particular on-demand technology** I can write a set of blog post and create a repository beyond a 'hello world' that could be more attractive from an employer point of view.
+
+In the past, I've applied as a **speaker in technology conferences**. One time I was downright rejected, but another time I was asked to create a stub and keep adding contents before my application got selected. I found this frustrating since all the work would go to waste in case I was not chosen, so I got discouraged and gave up. Writing the contents of my application on my personal blog could help me finding this process more deserving and, thus, help me persist.
 
 ## Conclusions
 
-I've covered all reasons that come to mind. By this day next year I expect to have 52 post written and then I'll evaluate if I've shown improvements on any of the stated goals. Missing those could come for two reasons; either I was unable to keep consistency or I managed but, in the end, a personal blog was not really helpful for this kind of personal and professional growth. If this is the case, I'd probably leave this on hold.
+I've covered all reasons that come to mind. By this day next year I expect to have 52 post written and then I'll evaluate if I've shown improvements on any of the stated goals. Missing those could come for two reasons; either I was unable to keep consistency or I managed but, in the end, a personal blog was not really that helpful for this kind of personal and professional growth. If this is the case, I'd probably leave this on hold.
