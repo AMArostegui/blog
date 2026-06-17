@@ -14,13 +14,7 @@ I'm going to group those reasons in personal and professional:
 
 ## Personal reasons
 
-1. Fight against perfectionism
-2. Authoring with my real name
-3. Anonymity
-4. Improve my writing skills
-5. Writing a diary
-6. Improve my english skills
-7. Help with my creativity
+{{< figure src="images/personal-reasons.png" alt="Personal Reasons" width="50%" >}}
 
 For all my life I've been suffering from the dreaded flaw of **perfectionism**. As the saying goes, the perfect is the enemy of the good and by not wanting to attach my name to an average or even mediocre output, I kept postponing creative activities that could do me good. I am a firm believer in the learning by doing principle, so by not doing I'm keeping myself from the learning activity.
 
@@ -38,10 +32,7 @@ I plan to write one post every week and I fully anticipate this to be hard. Find
 
 ## Professional reasons
 
-1. Being more productive on personal projects
-2. Learning new technologies; keep up to date with the field
-3. Add an in-demand technology to my CV
-4. Speak in a conference
+{{< figure src="images/professional-reasons.png" alt="Professional Reasons" width="50%" >}}
 
 First, surely not all personal projects are meant to be finished or even published, most are proof of concepts or do it just for fun, and that's fine. But, what if I decide a particular one is worth finishing? Would I be able to? Of course if it's making money that would help, but what if it's not? I've found that I'm bad at **being productive on personal projects** — setting and hitting deadlines. That's never been an issue at my day job as the pressure is applied by my manager and I think I'm good at adapting the effort to the assigned timeframe, but not so on side projects. My weekly publishing goal might help me improve on this.
 
