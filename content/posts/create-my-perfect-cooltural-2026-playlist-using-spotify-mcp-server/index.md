@@ -16,6 +16,8 @@ I use the months before the festival to learn about new bands. The organization 
 
 But what I like is hearing music while coding, not messing with Spotify UI and playlists. I thought it would be nice to speak to an AI chatbot and tell it exactly how I want my playlist built. In this brave new world of AI, Spotify might have deployed their own agent or MCP server. Turns out they haven't, but luckily some developer took the time to implement an MCP server for the streaming service.
 
+# The setup
+
 [Marcel Marais - Spotify MCP Server](https://github.com/marcelmarais/spotify-mcp-server)
 
 At first glance, this looks fine. It has implemented the APIs I'll likely need. [I followed the setup instructions](https://github.com/marcelmarais/spotify-mcp-server#setup) step by step, found no problem and five minutes later, I had my Spotify MCP ready to run.
@@ -31,3 +33,33 @@ We're almost set. Now click Start Server in the sidebar and Voila! We have our a
 ![MCP Server Running](images/mcp-server-running.png)
 
 In the next post, I'll explore how clever the chatbot is and whether it's enough to build my perfect Cooltural 2026 playlist.
+
+# Building the Playlist
+
+According to the docs, playlist creation is supported
+
+![createPlaylist](images/docs-create-playlist.png)
+
+so I asked the chatbot to create my list, but it was unable
+
+![Create Playlist Error](images/create-playlist-error.png)
+
+After several failed tries, I browsed the repo and found a [pull request](https://github.com/marcelmarais/spotify-mcp-server/pull/61) that fixes this problem, but I was not in the mood for cloning a different repo, so I created the list manually.
+
+Now, I want the agent to locate the official playlist and the one I just created. The first one was correctly fetched
+
+![Get Official Playlist](images/get-official-playlist.png)
+
+And so was the one I just created
+
+![Get Personalized Playlist](images/get-personalized-playlist.png)
+
+I had copied all tracks from the official playlist. Now I want to prune the headliners. Let's start with David Bisbal. Nothing against him, I love how he promotes my hometown and seems a nice guy, but he's not the kind of artist I'm interested in when I attend an indie festival.
+
+![Remove David Bisbal](images/remove-david-bisbal.png)
+
+And kept removing artists
+
+![Remove2](images/remove-2.png)
+
+So far so good. I think for now it's enough for a proof of concept. Furthermore I'm happy with my playlist now. If I find more interesting use cases, I might write another entry in the future.
