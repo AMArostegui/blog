@@ -36,7 +36,7 @@ In the next post, I'll explore how clever the chatbot is and whether it's enough
 
 # Building the Playlist
 
-According to the docs, playlist creation is supported
+According to the docs, playlist creation is a supported operation
 
 ![createPlaylist](images/docs-create-playlist.png)
 
@@ -44,22 +44,36 @@ so I asked the chatbot to create my list, but it was unable
 
 ![Create Playlist Error](images/create-playlist-error.png)
 
-After several failed tries, I browsed the repo and found a [pull request](https://github.com/marcelmarais/spotify-mcp-server/pull/61) that fixes this problem, but I was not in the mood for cloning a different repo, so I created the list manually.
+After several failed tries, I browsed the repo and found a related [pull request](https://github.com/marcelmarais/spotify-mcp-server/pull/61) that fixes this problem, but I was not in the mood of cloning another repo, so I created an empty list with the right name manually.
 
 Now, I want the agent to locate the official playlist and the one I just created. The first one was correctly fetched
 
 ![Get Official Playlist](images/get-official-playlist.png)
 
-And so was the one I just created
+and so was the one I just created
 
 ![Get Personalized Playlist](images/get-personalized-playlist.png)
 
-I had copied all tracks from the official playlist. Now I want to prune the headliners. Let's start with David Bisbal. Nothing against him, I love how he promotes my hometown and seems a nice guy, but he's not the kind of artist I'm interested in when I attend an indie festival.
+I had copied all tracks from the official playlist. Now I want to prune the headliners. Let's start with David Bisbal. Nothing against him, I love how he promotes my hometown and seems a nice guy, but not the kind of artist I'm interested in when attending to an indie rock festival.
 
 ![Remove David Bisbal](images/remove-david-bisbal.png)
 
-And kept removing artists
+I kept removing headliners whose songs I have heard enough times
 
 ![Remove2](images/remove-2.png)
 
-So far so good. I think for now it's enough for a proof of concept. Furthermore I'm happy with my playlist now. If I find more interesting use cases, I might write another entry in the future.
+So far so good. Now, I'm wondering whether the organization left any artist behind in their official playlist. Let's see if the bot can find the festival lineup automatically
+
+![Asked Cooltural Lineup](images/asked-cooltural-lineup.png)
+![Asked Cooltural Lineup2](images/asked-cooltural-lineup-2.png)
+
+It did quite well; couldn't sort all the artists in the right day, but I think it had the correct lineup. Now that it knows all the bands it can walk trough the list and check for omissions
+
+![Check for Omissions](images/checked-for-omissions.png)
+
+Of course it does remember we removed a few artists before.
+
+At this point, I'm satisfied with my playlist and, and I have successfully checked the MCP server functionality. I only had to do one manual operation and it would by most likely fixed by merging that PR, so I'd say this way of interacting with spotify has promise.
+
+I'd like to try any other handy MCP servers in the future.
+
