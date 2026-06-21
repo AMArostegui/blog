@@ -1,0 +1,4 @@
+{{- $role := .Get "role" | default "user" -}}
+<div class="chat-msg chat-msg--{{ $role }}">
+  <div class="chat-bubble">{{ .Inner | markdownify }}</div>
+</div>
