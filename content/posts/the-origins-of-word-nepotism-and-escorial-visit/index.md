@@ -8,31 +8,35 @@ description: ""
 showToc: false
 ---
 
-If you visit Madrid and stay for longer than two nights, you should take the trip from the capital to El Escorial to visit the Royal Site of San Lorenzo del Escorial. By car it's less than an hour trip. Otherwise, take the commuter train from one of the two main stations Atocha or Chamartin and pick line C8a heading northwest.
+If you visit Madrid and stay for longer than two nights, you should take the trip from the city to El Escorial to visit the Royal Site of San Lorenzo del Escorial. By car it's less than an hour trip. Otherwise, take the commuter train from one of the two main stations Atocha or Chamartin and pick line C8a heading northwest. I think by bus the stop leave you closer to the place, but not so sure on that.
 
 ![The Royal Site](images/the-royal-site.jpg)
 
-According to [the Wikipedia](https://en.wikipedia.org/wiki/El_Escorial), the site had several purposes. It served as royal palace, monastery, pantheon and others.
+For a tourist, is hard to beat Madrid Royal Palace. Located in Madrid city center it's the largest in Western Europe and of the largest of the world and kept in very good conservation state. However, the place I chose today, San Lorenzo del Escorial, is not just a palace, but a multi-purpose building. Verbatim from [Wikipedia](https://en.wikipedia.org/wiki/El_Escorial):
 
-For a visitor, is hard to beat Madrid Royal Palace, the largest in Western Europe and of the largest of the world, kept in very good conservation state. However, San Lorenzo del Escorial has a very special premise, that is the Royal burial vaults. Verbatim from Wikipedia:
+> It is one of the Spanish royal sites and functions as a monastery, basilica, royal palace, pantheon, library, museum, university, school, and hospital. 
+
+A very special place is the [pantheon of the kings](https://en.wikipedia.org/wiki/El_Escorial#Royal_burial_vaults), unmatched is Spain
 
 > This chamber consists of twenty-six marble sepulchres containing the remains of the kings and queens regnant (the only queen regnant since Philip II being Isabella II) of the Habsburg and Bourbon dynasties, from Charles I to the present, except for Philip V and his son Ferdinand VI.[29][3]
 
-While visiting the vaults I was reading the tombstones and checking my knowledge of history. Although by 1500 Castilian (Spanish) was already the mainstream language, Latin had still its place for religious purposes. So the tombstone labels are written in Latin and you can read inscriptions like
+While visiting the vaults I was reading the tombstones checking my knowledge of history. Although by 1500 Castilian (Spanish) was already the mainstream language, Latin had still its place for religious purposes. So the tombstone labels are written in Latin and you can read inscriptions like
 
 > Carolus II, Philippi IV Filius
 
-Filius has to mean 'son'. First and foremost, because I know the bloodline and who is who. Second because in high school I had one course of Latin and I must've been taught that. Third, most people that had been involved in religion (I attended a religious high-school) would know one of several closing form in the mass: "Pater, Filis an Spiritu Sancti"
+Filius has to mean 'son'. First and foremost, because I know the bloodline and who is who. Second because in high school I had one course of Latin and I must've been taught that. Third, most people that had been involved in religion (I attended a religious high-school) would know from one of the several closing form in the mass:
 
-However, another inscription was very common in the tombstones. I found several I can't exactly remember but were in the form
+> "Pater, Filis an Spiritu Sancti"
+
+However, another inscription was very common in the tombstones. I found several I can't exactly remember that were in the form
 
 > XXXX, YYYY Nepo
 
-I haven't done my research before writing this post; I will as soon as I write this paragraph. I remember my train of thought back then: 
+I haven't done my research before writing this post; I will as soon as I write this paragraph. But I remember my train of thought back then: 
 
-*Nepo* must mean something like son-in-law. That rings a bell on the etymology of the word *Nepotism*. Why would the form that reached our days be *Nepotism* rather than *Filism*? Given that the word have a negative feeling, its likely that our ancestors gave for granted favoring your immediate kin, your children rather than anyone else is nothing to be ashamed of. So *Filism* didn't make sense and not stick. However, the reasoning does not apply to  your extended family. In those cases you should favor the better professional. and not doing so is shameful, hence *Nepotism*. Feels like our ancestors were more grounded than us in the modern day, when we make an act that when we state that parent shouldn't pick his son, over a well-prepared stranger.
+*Nepo* must mean something like son-in-law. That rings a bell on the etymology of the word *Nepotism*. Why would the form that reached our days be *Nepotism* rather than *Filism*? Given that the word have a negative feeling, its likely that our ancestors gave for granted favoring your immediate kin, your children, rather than anyone else is nothing to be ashamed of. So *Filism* didn't make sense and not stick. However, the reasoning does not apply to your extended family. In those cases you should favor the better professional; not doing so is shameful, hence *Nepotism*. Personally, I feel like our ancestors were more grounded than us in the modern day, when we make an act by stating that a parent shouldn't pick his son, over a well-prepared stranger.
 
-Now, I'm prepared to ask the AI
+Now, after writing this post, I'm prepared to ask the AI
 
 {{< chat >}}
 {{< chat-msg role="user" >}}What's the meaning of the word 'nepo' in latin?{{< /chat-msg >}}
@@ -45,7 +49,7 @@ To get around celibacy while still keeping power in the family, they would appoi
 So the word reflects the specific workaround used: since you can't have sons, you favor your nephews. A term like filiism (from filius, son) wouldn't have fit the pretense.{{< /chat-msg >}}
 {{< /chat >}}
 
-So I didn't get the historical motives right this time.
+Seems like I didn't get the historical motives right this time. But at least, I've learnt something.
 
 
 
