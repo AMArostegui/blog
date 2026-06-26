@@ -1,5 +1,5 @@
 ---
-title: "Create My Perfect Cooltural 2026 Playlist Using Spotify MCP Server"
+title: "Creating my Perfect Cooltural 2026 Playlist Using Spotify MCP Server"
 date: 2026-06-14
 draft: false
 tags: [MCP, LLM, AI, General]
