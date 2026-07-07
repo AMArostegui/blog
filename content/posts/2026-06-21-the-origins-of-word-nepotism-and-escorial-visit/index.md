@@ -1,5 +1,5 @@
 ---
-title: "The origins of the word nepotism and a visit to the Royal Site of San Lorenzo del Escorial"
+title: "On the origins of the word nepotism and a visit to the Royal Site of San Lorenzo del Escorial"
 date: 2026-06-21
 draft: false
 tags: [General]
