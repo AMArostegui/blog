@@ -20,15 +20,12 @@ Back to my case, I was giving away a big compensation as I had been working ther
 
 I had a very nice trip and was feeling optimistic by the end of my leisure period. I was riding the last train before arriving back home and reading a book in English. I had decided that from then on, I'd only read in English trying to improve my skills and thus, employability. I was sitting next to a blonde girl who by her looks, had to be a foreigner. She noticed me reading the book and tactfully started a chat. I was glad since it gave me an opportunity to practice English and to be honest, I'd rather do it with a girl.
 
+![The girl on the train](images/the-girl-on-the-train.jpeg)
+
 I can't remember the conversation but was pleasant enough until we got to the topic of what's possible for one to achieve. She had a no-compromises American worldview that everything's possible if you apply yourself to a task. I had a very conservative European (the Spanish case is even worse than your average European) attitude that you are limited by your social class, family, country and many other factors. We were struggling to find a middle ground despite me believing myself to be good at that. I got to a point where I told her I could not beat Usain Bolt at a 100m race no matter how much I applied myself to the training. I thought on that we'd agree since I'm a very average non athletic white guy and Bolt... what's to say about him but, to my surprise, she replied that I hadn't tried so I couldn't say.
 
 I was now really puzzled we couldn't even agree on the obvious and was evaluating possibilities.
 
-1. She was angry at what she thought was a defeatist attitude and, thus, teasing me.
-2. She had the can-do attitude so ingrained that the mere fact of not trying didn't compute. The same way an MMA fighter does not think on defeat not to self-sabotage
-3. She just wanted to contradict me to check my reaction
-4. She had had a previous displeasing experience on this topic
-
-but from then on, the conversation became more mundane. By then, the conversation had been going on for a few hours and my head burned out from so much English-speaking. I asked her whether we could continue the conversation in Spanish so I could rest, but she refused.
+Maybe she was angry at what she thought was a defeatist attitude and, thus, teasing me. Or she had the can-do attitude so ingrained that the mere fact of not trying didn't compute for her, the same way an MMA fighter does not think on defeat not to self-sabotage. Prehaps she just wanted to contradict me to check my reaction or she has had a previous displeasing experience on this topic, but from then on, the conversation became more mundane. By then, the conversation had been going on for a few hours and my head burned out from so much English-speaking. I asked her whether we could continue the conversation in Spanish so I could rest, but she refused.
 
 After the trip ended she gave me her phone but in the end didn't agree to have a date. But to this day I keep wondering what she was thinking about during that Usain Bolt conversation.
