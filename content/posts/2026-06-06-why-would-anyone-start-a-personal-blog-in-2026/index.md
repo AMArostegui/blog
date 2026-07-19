@@ -2,7 +2,7 @@
 title: "Why Would Anyone Start a Personal Blog in 2026?"
 date: 2026-06-06
 draft: false
-tags: [general]
+tags: [General]
 author: "Antonio Miras"
 description: ""
 showToc: false

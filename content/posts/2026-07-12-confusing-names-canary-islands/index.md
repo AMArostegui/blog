@@ -2,7 +2,7 @@
 title: "Clarifying the Administrative Names of the Canary Islands Archipelago"
 date: 2026-07-17
 draft: false
-tags: [General]
+tags: [General, Travel]
 author: "Antonio Miras"
 description: ""
 showToc: false
@@ -41,30 +41,3 @@ I've spent a week discovering Lanzarote. This is the oldest island, known for it
 We've followed [the following guide](https://puntodepartidaaragon.com/que-ver-en-lanzarote-en-7-dias/) (in spanish) She has also built a Google Maps with the most important spots pinned, colour-coded for each day of the 7 days visit.
 
 The only remark I'd like to make is that I do recommend the bus trip through the *Montaña de Fuego*. It's a bit expensive compared to what's asked for other amenities on the island, but the track was designed by [César Manrique himself](https://es.wikipedia.org/wiki/C%C3%A9sar_Manrique), and they've upgraded the bus having huge clean windows that allow for a clear view of the landscapes. Indeed, you're not allowed to leave the bus at any moment, but I recommend it nonetheless.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
