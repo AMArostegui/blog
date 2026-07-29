@@ -12,7 +12,14 @@ showToc: false
 
 It seems ages have passed by, but it was only 2020 when ChatGPT-3 was released. We developers and technology enthusiasts had been aware of it, but in November 2022 ChatGPT-3.5 was released to the mass market and rocked the world. This is the timeline:
 
-![chatgpt-timeline](images/chatgpt-timeline.png)
+| Year         | Model                 | Impact                                                                        |
+| ------------ | --------------------- | ----------------------------------------------------------------------------- |
+| 2018         | GPT-1                 | Research prototype.                                                           |
+| 2019         | GPT-2                 | Significant attention in the AI community, but not widely used by the public. |
+| 2020         | GPT-3                 | Impressive capabilities, mostly accessed through APIs and developer tools.    |
+| **Nov 2022** | **ChatGPT (GPT-3.5)** | **First version to become a global phenomenon.**                              |
+| Mar 2023     | GPT-4                 | Major quality improvement, building on ChatGPT's already massive user base.   |
+
 
 At first I used it like many other developers, I assume. Just copy and paste from the browser or ChatGPT app to the IDE. This was fine for scripts or very localized problems, and that small assistance to my daily coding was enough for a couple of years, until I subscribed to GitHub Copilot in August 2025.
 
