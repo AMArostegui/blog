@@ -60,6 +60,60 @@ Let's ask the agent what this repo is about, and check whether it queried the fi
 
 Fine, it got the memo. Now I can keep writing AGENTS.md files in each folder, giving granular information for each module.
 
+## Tools and Skills
+
+AGENTS.md create persistent context for AI agents; we're just giving more information to our agent. Now, in order to increase its usefullness, we need dynamic features.
+
+We've been using AI tools from the beggining without much tought. Indeed for coding an LLM alone is barely enough, simple tools like searching files, reading its contents or browsing the web are required. Thankfully most AI agents bring those out of the box, [these are VS Code builtin chat tools provides](https://code.visualstudio.com/docs/chat/chat-tools)
+
+[vscode-ai-chat-bultin-tools](images/vscode-ai-chat-bultin-tools.png)
+
+Now tools, as their name suggest, are straightforward abilities; actions our agent can invoke, but to increase knoledge we use a different abstraction called skills. Plenty of web articles like [this](https://www.youtube.com/watch?v=swt76LCfZv4&t=280) are available explaining the difference.
+
+Is relevant that agent skills are also an [open standard](https://agentskills.io/home)
+
+## Codebase navigation
+
+Graphify is the code navigation skill introduced at work, so this is the one I'm going to evaluate. The docs state 
+
+> No account, no API keys, nothing leaves your machine
+
+so it nicely fits my lock-in requirements and also [supports all relevant AI coding assistants](https://graphify.com/integrations)
+
+This is a python tool. I didn't want to polute the virtualenv my trading bot uses, so I had to create a separate one. Use your favorite Python venv/package tool, I'm still in venv/pip
+
+![install-graphify](images/install-graphify.png)
+
+Now we have the command line tool available. Next step is to execute the tool to install the skill and make it available for the assistant
+
+![install-graphify-skill](images/install-graphify-skill.png)
+
+As the skill is now installed I should have the ability to talk about it to my agent. I had first to enable the right virtualenv in the hidden terminal the agent uses
+
+![activate-graphify-virtualenv](images/activate-graphify-virtualenv.png)
+
+but after that, I asked to build the code graph scoped to the folders I wanted and, after a while, did it nicely
+
+![graphify-graph-created](images/graphify-graph-created.png)
+
+The tool provides a nice HTML representation of the graph. It might not be that useful but at least I can use it to check the information graphify mapped is correct 
+
+![html-graph](images/html-graph.png)
+
+It looks good to me. Dangling nodes are `__init__.py` files. Now we can use the skill to ask questions
+
+![first-graphify-navigation](images/first-graphify-navigation.png)
+
+It'll take a while to assess how useful the skill is. On a bigger source code base (at day job) I'll get a more informed opinion.
+
+
+
+
+
+
+
+
+
 
 
 
