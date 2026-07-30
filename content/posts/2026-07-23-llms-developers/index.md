@@ -1,7 +1,7 @@
 ---
 title: "My experience using LLMs as a software developer"
 date: 2026-07-23
-draft: true
+draft: false
 tags: [LLM, AI, Software Development]
 author: "Antonio Miras"
 description: ""
@@ -112,19 +112,5 @@ It looks good to me. Dangling nodes are `__init__.py` files. Now we can use the 
 ![first-graphify-navigation](images/first-graphify-navigation.png)
 
 It'll take a while to assess how useful the skill is. On a bigger codebase (at my day job) I'll get a more informed opinion.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
