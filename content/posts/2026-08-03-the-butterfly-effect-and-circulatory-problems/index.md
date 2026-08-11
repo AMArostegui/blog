@@ -20,7 +20,7 @@ But if that is the case, the problem won't be solved by just warming up my feet;
 
 To lift my legs, I'd just need an adjustable stool with no backrest or any other impediment around the seat. I've ended up purchasing a small piano bench and so far, the results have been good. I really think I'm feeling much better after the workday is over. If this carries on for the coming days and continues after winter, this could become an impactful purchase for me.
 
-For a moment, let's assume this simple purchase works and my circulatory problems improve. What other minor changes could make such an important improvement in my lifestyle? What if I had done this when I was 20? I don't think it's an understatement to say that, through a butterfly effect, had my physical condition been better after a working day all these years, my life could've been very different. I could have enjoyed more leisure activities on weekdays, not just weekends. Maybe I'd be more sociable and thus have more friends.
+For a moment, let's assume this simple purchase works and my circulatory problems improve. What other minor changes could make such an important improvement in my lifestyle? What if I had done this when I was 20? I don't think it's an understatement to say that, in what is called a butterfly effect, had my physical condition been better after a working day all these years, my life could've been very different. I could have enjoyed more leisure activities on weekdays, not just weekends. Maybe I'd be more sociable and thus have more friends.
 
 
 
