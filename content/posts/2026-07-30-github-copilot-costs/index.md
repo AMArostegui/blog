@@ -1,5 +1,5 @@
 ---
-title: "GitHub Copilot Costs"
+title: "GitHub Copilot costs"
 date: 2026-07-30
 draft: false
 tags: [AI, Software Development]

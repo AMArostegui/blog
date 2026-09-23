@@ -2,7 +2,7 @@
 title: "My experience using LLMs as a software developer"
 date: 2026-07-30
 draft: false
-tags: [LLM, AI, Software Development]
+tags: [AI, Software Development]
 author: "Antonio Miras"
 description: ""
 showToc: false

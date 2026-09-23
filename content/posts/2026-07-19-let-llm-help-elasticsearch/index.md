@@ -2,7 +2,7 @@
 title: "Letting the LLMs help me with Elasticsearch syntax"
 date: 2026-07-19
 draft: false
-tags: [LLM, AI, Elasticsearch, Visual Studio Code]
+tags: [AI, Software Development]
 author: "Antonio Miras"
 description: ""
 showToc: false

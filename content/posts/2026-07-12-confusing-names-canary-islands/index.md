@@ -1,5 +1,5 @@
 ---
-title: "Clarifying the Administrative Names of the Canary Islands Archipelago"
+title: "Clarifying the Administrative names of the Canary Islands archipelago"
 date: 2026-07-17
 draft: false
 tags: [General, Travel]

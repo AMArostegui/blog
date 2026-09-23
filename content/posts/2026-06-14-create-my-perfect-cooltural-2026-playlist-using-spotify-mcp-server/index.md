@@ -1,8 +1,8 @@
 ---
-title: "Creating my Perfect Cooltural 2026 Playlist Using Spotify MCP Server"
+title: "Creating my perfect Cooltural 2026 playlist using Spotify MCP server"
 date: 2026-06-14
 draft: false
-tags: [MCP, LLM, AI, General, Visual Studio Code]
+tags: [AI, General, Software Development, Music]
 author: "Antonio Miras"
 description: ""
 showToc: false

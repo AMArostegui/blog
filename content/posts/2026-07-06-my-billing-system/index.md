@@ -1,8 +1,8 @@
 ---
-title: "My Scrappy Hourly Billing Setup for Dev Work"
+title: "My scrappy hourly billing setup for dev work"
 date: 2026-07-06
 draft: false
-tags: [General, Systems]
+tags: [General, Computing]
 author: "Antonio Miras"
 description: ""
 showToc: false

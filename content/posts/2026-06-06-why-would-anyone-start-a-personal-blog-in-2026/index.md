@@ -1,5 +1,5 @@
 ---
-title: "Why Would Anyone Start a Personal Blog in 2026?"
+title: "Why would anyone start a personal blog in 2026?"
 date: 2026-06-06
 draft: false
 tags: [General]
