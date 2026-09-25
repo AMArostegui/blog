@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1040" viewBox="0 0 1600 1040" role="img" aria-labelledby="title desc">
+  <title id="title">Data classification map by privacy and access frequency</title>
+  <desc id="desc">A three by three grid. Columns represent privacy: Offline, Online, Public. Rows represent access frequency: Hot, Cool, Cold. Example information is placed within each cell.</desc>
+  <defs>
+    <style>
+      .title { font: 700 42px Arial, sans-serif; fill: #102a43; }
+      .subtitle { font: 21px Arial, sans-serif; fill: #486581; }
+      .axis { font: 700 20px Arial, sans-serif; fill: #243b53; letter-spacing: 1px; }
+      .header { font: 700 27px Arial, sans-serif; fill: #102a43; }
+      .note { font: 18px Arial, sans-serif; fill: #334e68; }
+      .celltitle { font: 700 19px Arial, sans-serif; fill: #102a43; }
+      .item { font: 18px Arial, sans-serif; fill: #243b53; }
+      .small { font: italic 16px Arial, sans-serif; fill: #627d98; }
+    </style>
+  </defs>
+
+  <rect width="1600" height="1040" fill="#f7fbff"/>
+  <text x="800" y="70" text-anchor="middle" class="title">Personal Data Classification</text>
+  <text x="800" y="106" text-anchor="middle" class="subtitle">Every file belongs to one privacy category and one access-frequency category.</text>
+
+  <!-- privacy axis and headers -->
+  <text x="915" y="166" text-anchor="middle" class="axis">PRIVACY / EXPOSURE</text>
+  <text x="520" y="215" text-anchor="middle" class="header">Offline</text>
+  <text x="520" y="244" text-anchor="middle" class="note">No internet access</text>
+  <text x="900" y="215" text-anchor="middle" class="header">Online</text>
+  <text x="900" y="244" text-anchor="middle" class="note">Private, manageable risk</text>
+  <text x="1280" y="215" text-anchor="middle" class="header">Public</text>
+  <text x="1280" y="244" text-anchor="middle" class="note">Intended to be open</text>
+
+  <!-- frequency axis -->
+  <text x="108" y="600" transform="rotate(-90 108 600)" text-anchor="middle" class="axis">ACCESS FREQUENCY</text>
+  <text x="250" y="390" text-anchor="middle" class="header">Hot</text>
+  <text x="250" y="417" text-anchor="middle" class="note">Frequently accessed</text>
+  <text x="250" y="604" text-anchor="middle" class="header">Cool</text>
+  <text x="250" y="631" text-anchor="middle" class="note">Occasionally accessed</text>
+  <text x="250" y="818" text-anchor="middle" class="header">Cold</text>
+  <text x="250" y="845" text-anchor="middle" class="note">Rarely accessed</text>
+
+  <!-- grid cells -->
+  <g stroke="#b9d3ee" stroke-width="2">
+    <rect x="330" y="290" width="380" height="210" rx="16" fill="#fff1f1"/>
+    <rect x="710" y="290" width="380" height="210" rx="16" fill="#fff8e6"/>
+    <rect x="1090" y="290" width="380" height="210" rx="16" fill="#edf9f0"/>
+    <rect x="330" y="500" width="380" height="210" rx="16" fill="#fdf5f5"/>
+    <rect x="710" y="500" width="380" height="210" rx="16" fill="#fffdf5"/>
+    <rect x="1090" y="500" width="380" height="210" rx="16" fill="#f5fbf6"/>
+    <rect x="330" y="710" width="380" height="210" rx="16" fill="#fbf9f9"/>
+    <rect x="710" y="710" width="380" height="210" rx="16" fill="#fafafa"/>
+    <rect x="1090" y="710" width="380" height="210" rx="16" fill="#fafcfa"/>
+  </g>
+
+  <!-- Hot -->
+  <text x="358" y="328" class="celltitle">Offline + Hot</text>
+  <text x="358" y="370" class="item">• National ID card</text>
+  <text x="358" y="402" class="item">• SSH information</text>
+  <text x="358" y="434" class="item">• Password-manager master key</text>
+  <text x="738" y="328" class="celltitle">Online + Hot</text>
+  <text x="738" y="370" class="item">• Active private code repositories</text>
+  <text x="738" y="402" class="item">• Password manager (Firefox)</text>
+  <text x="1118" y="328" class="celltitle">Public + Hot</text>
+  <text x="1118" y="370" class="item">• This blog</text>
+  <text x="1118" y="402" class="item">• Active open-source projects (GitHub)</text>
+
+  <!-- Cool -->
+  <text x="358" y="538" class="celltitle">Offline + Cool</text>
+  <text x="358" y="580" class="item">• Banking information</text>
+  <text x="358" y="612" class="item">• Tax-return documents</text>
+  <text x="738" y="538" class="celltitle">Online + Cool</text>
+  <text x="738" y="580" class="item">• Pictures collection</text>
+  <text x="1118" y="538" class="celltitle">Public + Cool</text>
+
+  <!-- Cold -->
+  <text x="358" y="748" class="celltitle">Offline + Cold</text>
+  <text x="358" y="788" class="item">• Other people’s private information</text>
+  <text x="358" y="820" class="item">  (Mom, girlfriend)</text>
+  <text x="738" y="748" class="celltitle">Online + Cold</text>
+  <text x="1118" y="748" class="celltitle">Public + Cold</text>
+  <text x="1118" y="790" class="item">• Articles published in the past</text>
+  <text x="1118" y="822" class="item">• Open-source projects published in the past</text>
+</svg>
