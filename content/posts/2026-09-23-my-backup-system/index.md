@@ -1,5 +1,5 @@
 ---
-title: "My backup system and possible improvements"
+title: "My backup system"
 date: 2026-09-23
 draft: true
 tags: [Computing, General]
@@ -50,7 +50,7 @@ According to privacy, **Offline** data cannot be accessed through the internet. 
 
 Access frequency is, as expected, related to how new the information is. Everybody accesses newer information more often, but sometimes, a file can be quite old but still frequently accessed because it keeps a whole history, or simply, the older information is replaced by newer information. My pictures collection is **Cool Data**, my house scripture or the university practice I made 25 years ago is **Cold Data**. This blog, the repositories of active projects, and my national ID card are **Hot Data**.
 
-![data-classification-map](images/data-classification-map.svg)
+![Data Classification Map](images/data-classification-map.svg)
 
 # My current setup
 
@@ -69,14 +69,30 @@ A basic norm of backup management is not to place all your systems in the same p
 
 Finally, the **Raspberry Pi** is not really there for its importance in my backup setup. I use it as an `origin` for my private repositories, but this is not really necessary since I already keep them backed up. The real reason is that some repos implement long-running background processes. My laptop gets suspended, powered on and off, so it is not really a good candidate to run those daemons and, as already said, the server wastes too much energy. I also need to run background tasks having nothing to do with my own sources, like a *DDNS daemon*.
 
-![hardware](images/backup-hardware)
+![Hardware for my backup setup](images/backup-hardware)
 
+This current setup is not perfect. My ideal would be replacing the *Server* by a low-powered NAS I can keep all day powered on and online. It should, somehow, have two different sandboxes, one accesible from the internet, and the other hidden behind a VPN. Ideally I could also replace the *Raspberry PI* for this sever to run those background tasks. I might address this on a future entry.
 
+# Synchronization
 
+The files on these hardware devices need synchronizing, in this direction:
 
+`Laptop => Server => External HDD`
 
+Whenever a file is found in the laptop, this is the source of truth that has to be copied to the other two devices. If a file is not found in the laptop, then the master is on the server and has to be copied to the external HDD.
 
+In Linux-land they usually do these things using [rsync](https://es.wikipedia.org/wiki/Rsync), but it has no Windows version and is a CLI-only tool. I didn't feel like mastering a bunch of commands and I was already used to [GoodSync](https://www.goodsync.com/es) from the work I did in a past position. GoodSync is very convenient, its UI gives you a clear picture of all that is happening that I find very hard to grasp using a command line tool. However, I had to migrate because they focused on cloud infrastructure and monthly payments, good for business but not what I was looking for as a private low income user. Luckily I found [Free File Sync](https://freefilesync.org/) as a Windows alternative. Admittedly, its UI looks dated, but it works remarkably well and ONLY the looks are dated, because the functionality is all that I expected, and got used to with GoodSync. I quickly went for the *Donation Edition*, and as I write, have donated again. You don't need to, the application is honest about its name, it is really free, but if you find the software useful, I encourage you to support its developers.
 
+I have configured a bunch of tasks. The first two copy from the *Laptop* to the *Server*. Everything else copies from the *Server* to the *External disk*
 
+![Free File Sync Tasks](images/freefilesync-tasks.png)
 
+I've tried to keep sizes manageable by ignoring build artifacts and directories that became too big, like some *Python Virtualenvs* containing native frameworks.
 
+![Free File Sync Ignore](images/freefilesync-ignore.png)
+
+It is noticeable when an unexpectedly big folder slides into the backup. I removed the ignore list just to try pressing Analyze
+
+![Free File Sync Analyze too big](images/freefilesync-warning.png)
+
+Am I, unexpectedly, about to copy 8.55GB and 77K new files? What did I do?
