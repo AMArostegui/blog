@@ -44,13 +44,36 @@ I need to implement a reasonable level of security while a keeping the effort to
 
 # What do I need? Categorizing the data I need to backup
 
-I sort my data using a double hierarchy, according to privacy **Offline, Online** or **Public** and frequency of access **Hot, Cool** or **Cold**. Each file is sorted into one category for each hierarchy.
+I sort my data using a double hierarchy, according to privacy **Offline, Online, Public, External** and frequency of access **Hot, Cool, Cold**. Each file is sorted into one category for each hierarchy.
 
-According to privacy, **Offline** data cannot be accessed through the internet. However, it would be acceptable to keep files in this category behind a VPN, only if it is managed by me. This category includes my house deed, banking information, SSH certificates, or passwords I don't keep in the manager. **Online** information is still private, only for my eyes, but unauthorized access wouldn't be the end of the world. It includes things like my pictures collection or private code repositories. I have very little **Public** information. It's limited to open source projects I keep on GitHub, and this blog.
+According to privacy, **Offline** data cannot be accessed through the internet. However, it would be acceptable to keep files in this category behind a VPN, only if it is managed by me. This category includes my house deed, banking information, SSH certificates, or passwords I don't keep in the manager. **Online** information is still private, only for my eyes, but unauthorized access wouldn't be the end of the world. It includes things like my pictures collection or private code repositories. I have very little **Public** information. It's limited to open source projects I keep on GitHub, and this blog. **External** is a special case and I leave it for later
 
 Access frequency is, as expected, related to how new the information is. Everybody accesses newer information more often, but sometimes, a file can be quite old but still frequently accessed because it keeps a whole history, or simply, the older information is replaced by newer information. My pictures collection is **Cool Data**, my house scripture or the university practice I made 25 years ago is **Cold Data**. This blog, the repositories of active projects, and my national ID card are **Hot Data**.
 
 ![Data Classification Map](images/data-classification-map.svg)
+
+Now, let's go back to **External** privacy category. No man is an island so although my desire is to be the sole owner of my data that won't happen as long as you use any online service. This is what *External* is for. The ownership of data stored in internet services is foggy as we have a mix of copyright, privacy and corporate laws that leaves the average guy clueless. I'm not elaborating on these topics as it is too hard and common sense does not seem to work anymore. I used to buy a book and I could not copy and sell it, but I could take it and read wherever and whenever I wanted, but that is no longer the case with internet services.
+
+This is the list of internet services I use and want to back up
+
+1. Audiobooks: Audible
+2. Music: Spotify
+3. eMail / Calendar / Contacts: Fastmail
+4. TV: Netflix 
+5. Gaming: Steam / GOG
+6. Banking
+
+First, let me keep it simple. On TV and gaming, I give up. I find modern TV boring and even if I didn't, saving such content is impractical; the juice is not worth the squeeze. On gaming, I rather buy through GOG as they are DRM-free but many titles are Steam-first. Anyway, I rarely play anymore, so the effort is not worth it neither.
+
+On banking, every January I used to save all movements from the past year, but new EU regulations have made it a hassle, now 2FA is involved to download older than 90-day movements; that was the last straw and I also give up backing this up.
+
+Now come the interesting cases. I'm a casual on TV and gaming, but not so with audiobooks. I curate my collection and appreciate most books I've read. I sometimes re-read those I found interesting. Of course *Audible* DRM-protects their books, so I had to find a workable system to remove DRM and store in an open format. I did manage to do it but I won't elaborate. I simply run an application against my library from time to time, and store the unlocked books on my server. That puts them in the backup loop.
+
+On *Spotify*, It would be impossible to save all music I listen to, but I do want to keep my playlist, albums and favourite artists in an open format. I use [Exportify.net](https://exportify.net/) and [SpotMyBackup](http://www.spotmybackup.com/). Sadly as I'm writing I notice SpotMyBackup is not active anymore, but [somebody has forked](https://github.com/AlexanderMelde/MySpotBackup).
+
+I also want to keep the information in Fastmail safe. This company is customer friendly and I'm not planning to leave their service anytime soon, but I'd rather keep my data safe. Them making so easy to export your data only makes me trust them more.
+
+![Fastmail Export](images/fastmail-export.png)
 
 # My current setup
 
