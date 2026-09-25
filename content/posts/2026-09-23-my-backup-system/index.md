@@ -44,17 +44,35 @@ I need to implement a reasonable level of security while a keeping the effort to
 
 # What do I need? Categorizing the data I need to backup
 
-I sort my data using a double hierarchy, according to privacy *Offline, Online* or *Public* and frequency of access *Hot, Cool* or *Cold*. Each file is sorted into one category for each hierarchy.
+I sort my data using a double hierarchy, according to privacy **Offline, Online** or **Public** and frequency of access **Hot, Cool** or **Cold**. Each file is sorted into one category for each hierarchy.
 
-According to privacy, *Offline* data cannot be accessed through the internet. However, it would be acceptable to keep files in this category behind a VPN, only if it is managed by me. This category includes my house deed, banking information, SSH certificates, or passwords I don't keep in the manager. *Online* information is still private, only for my eyes, but unauthorized access wouldn't be the end of the world. It includes things like my pictures collection or private code repositories. I have very little *Public* information. It's limited to open source projects I keep on GitHub, and this blog.
+According to privacy, **Offline** data cannot be accessed through the internet. However, it would be acceptable to keep files in this category behind a VPN, only if it is managed by me. This category includes my house deed, banking information, SSH certificates, or passwords I don't keep in the manager. **Online** information is still private, only for my eyes, but unauthorized access wouldn't be the end of the world. It includes things like my pictures collection or private code repositories. I have very little **Public** information. It's limited to open source projects I keep on GitHub, and this blog.
 
-Access frequency is, as expected, related to how new the information is. Everybody accesses newer information more often, but sometimes, a file can be quite old but still frequently accessed because it keeps a whole history, or simply, the older information is replaced by newer information. My pictures collection is *Cool Data*, my house deed is *Cold Data*. This blog, the repositories of active projects, and my national ID card are *Hot Data*.
+Access frequency is, as expected, related to how new the information is. Everybody accesses newer information more often, but sometimes, a file can be quite old but still frequently accessed because it keeps a whole history, or simply, the older information is replaced by newer information. My pictures collection is **Cool Data**, my house scripture or the university practice I made 25 years ago is **Cold Data**. This blog, the repositories of active projects, and my national ID card are **Hot Data**.
 
 ![data-classification-map](images/data-classification-map.svg)
 
 # My current setup
 
-Three pieces of hardware are involved in my current setup
+Four pieces of hardware are involved in my current setup:
+
+1. MSI laptop; my daily workhorse
+2. HP desktop server
+3. External USB WD hard disk drive
+4. Raspberry Pi 4B
+
+I keep all *Offline-Hot* data in my **laptop**. I've used Bitlocker in the past, but since I got this computer I no longer take it out of the house; anyway I should re-enable it. All development information is on this computer, no matter its category. Usually repositories are of small size and if they have external artifacts, I store them elsewhere. If the repository is public, its `origin` will point to GitHub, otherwise it will point to my Raspberry.
+
+The **HP desktop server** is still with me only for its storage; I don't care about its computing capabilities. It has 4TB in RAID 1 configuration. The server is usually powered down because it consumes a lot of energy. It has HP's proprietary iLO system offering several server-oriented capabilities, like remote wake and others, but even powered down, this server uses up too much power. So it makes sense to keep all *Cool/Cold* data here, because I don't care about storage size. As this computer cannot be remotely accessed, I cannot keep *Online* information. This is one of the main points for improvement, since it would be nice to have my pictures collection (*Online-Cool*) accessible from the outside, something like a private-only Instagram.
+
+A basic norm of backup management is not to place all your systems in the same physical space. To comply, I use an **External WD hard drive**, which I used to keep at my mother's place, but since I no longer have that possibility, it has to move to my sister's.
+
+Finally, the **Raspberry Pi** is not really there for its importance in my backup setup. I use it as an `origin` for my private repositories, but this is not really necessary since I already keep them backed up. The real reason is that some repos implement long-running background processes. My laptop gets suspended, powered on and off, so it is not really a good candidate to run those daemons and, as already said, the server wastes too much energy. I also need to run background tasks having nothing to do with my own sources, like a *DDNS daemon*.
+
+![hardware](images/backup-hardware)
+
+
+
 
 
 
