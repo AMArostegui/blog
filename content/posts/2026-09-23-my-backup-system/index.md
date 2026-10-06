@@ -1,6 +1,6 @@
 ---
 title: "My backup system"
-date: 2026-09-23
+date: 2026-09-25
 draft: false
 tags: [Computing, General]
 author: "Antonio Miras"
