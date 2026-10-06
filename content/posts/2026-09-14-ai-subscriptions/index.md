@@ -57,8 +57,13 @@ Regarding usage measurement, I talked about GH Copilot usage in my previous post
 > - A credit balance appears only if additional usage credits are available for your account and you purchase or receive some.
 > API billing is separate. If you use your own API key through platform.openai.com, you get token-based usage and monetary costs through the API Usage dashboard, calculated using the > published model rates.
 
-To be honest, I find this method quite vague.
+To be honest, I find this method obscure, compared to GitHub Copilot consumption calculations, that gives you honest feedback after each interaction.
 
+The same as GitHub Copilot gives away a discretional allowance of 70$ [as explained here]({{< ref "/posts/2026-07-30-github-copilot-costs" >}})), ChatGPT gifts the user with resets, you can use whenever you reach your subscription limits. See them appear next to your limit counter for no apparent reason.
+
+![usage-limit-resets](images/chatpgt-usage-limit-resets.png)
+
+I've asked the agent about why and when those reset appear, but the answer was vague.
 
 
 
