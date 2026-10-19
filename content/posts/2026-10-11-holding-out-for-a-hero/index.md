@@ -1,12 +1,14 @@
 ---
 title: "Holding out for a hero (1)"
-date: 2026-10-11
+date: 2026-10-18
 draft: false
 tags: [General]
 author: "Antonio Miras"
 description: ""
 showToc: false
 ---
+
+![Bonnie Tyler - Holding Out for a Hero](images/Bonnie_Tyler_Holding_a_Hero.jpeg)
 
 From childhood, we feel a need to have someone to look up to. For many kids, an athlete, a musician, an actor or even, at an early age, their dad, is a hero whose ways they strive to imitate. Naturally, as we mature and really learn how flawed humans are, this need is put into perspective. Still, it persists, and we see many adults showing childlike devotion to unremarkable individuals for vague reasons.
 

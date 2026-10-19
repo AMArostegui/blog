@@ -77,3 +77,12 @@ At this point, I'm satisfied with my playlist and, and I have successfully check
 
 I'd like to try any other handy MCP servers in the future.
 
+# Update 19/10/2026
+
+In recent versions of ChatGPT, we now have a *Plugins* section for many common applications and Spotify is in the list
+
+![Spotify Plugin](images/spotify-plugin.png)
+
+It's been a good ride getting to know the MCP protocol and understanding how powerful is to interact between REST APIs and LLMs. It is also an open protocol which is a positive but, from the point of view of a regular user, using a plugin is a breeze; I managed to create a list from a prompt in about 5 minutes.
+
+![Spofity Plugin at work](images/spotify-plugin-at-work.png)

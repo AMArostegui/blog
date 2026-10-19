@@ -26,6 +26,20 @@ Apart than the distinctions he describes, I think he missed that *Chat* conversa
 
 ![chat-not-included](images/chat-not-included.png)
 
+Usually, most interactions not involving development happen on *Chat* mode. However, we might make a request that needs additional scaffolding. In those cases, the system will automatically ask to migrate from *Chat* to *Work* mode like here, when I asked the agent to build a collage of celebrities using Creative Commons images.
+
+![from-chat-to-work](images/from-chat-to-work.png)
+
+This is the outcome I got in the new thread
+
+![collage](images/collage.png)
+
+But look at this marvel hidden after the `Worked for 3m 35s` dropdown
+
+![behind-the-scenes](images/behind-the-scenes.png)
+
+It automatically generated a python script `build_second_collage.py`, and saved in my disk drive. I can directly edit in the application or open in Visual Studio Code or any other IDE.
+
 # Local vs. Cloud Execution
 
 Each conversation is labelled as *running in the cloud* or *running locally*. I've reviewed my history and noticed two similar threads where I asked the agent to create some images. One is running in the cloud and the other locally. I asked the agent about the distinction:
