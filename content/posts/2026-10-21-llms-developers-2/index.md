@@ -68,3 +68,9 @@ Now, the letdown; let's now have a look at the code it has generated. `*.Designe
   alt="Maintenance nightmare"
   caption="Most design has been generated using code"
 >}}
+
+However, I asked the assistant to refactor as I cannot keep up with this code an it took **6m 41s** to generate two perfectly formatted XAML files
+
+![xaml-refactor](images/xaml-refactor.png)
+
+These assistants still need supervision, but whenever they depart from the right track, fixing is very easy to fix, as long as you keep track of their activity.
