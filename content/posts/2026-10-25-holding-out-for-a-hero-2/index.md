@@ -1,7 +1,7 @@
 ---
 title: "Holding out for a hero (2)"
 date: 2026-10-25
-draft: true
+draft: false
 tags: [General]
 author: "Antonio Miras"
 description: ""
