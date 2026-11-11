@@ -1,7 +1,7 @@
 ---
 title: "The best book nobody has read"
 date: 2026-11-11
-draft: true
+draft: false
 tags: [Books]
 author: "Antonio Miras"
 description: ""
